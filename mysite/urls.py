@@ -19,5 +19,8 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('blog.urls')),
+<<<<<<< HEAD
+=======
     
+>>>>>>> 6328d938a27219004ade19416a0f589d2a00444f
 ]
